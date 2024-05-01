@@ -24,7 +24,9 @@ if(landscape==true){
     criteria.style.display = "none";
 }
 else if(landscape==false){
-    criteria.style.display = "block"
+    criteria.style.display = "block";
+    hero.style.display = "none";
+    loader1.style.display = "none";
 }
 },100)
 
