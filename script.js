@@ -22,7 +22,6 @@ setInterval(()=>{
     landscape = window.matchMedia("(orientation:landscape)").matches;
 if(landscape==true){
     criteria.style.display = "none";
-    run();
 }
 else if(landscape==false){
     criteria.style.display = "block"
@@ -31,7 +30,7 @@ else if(landscape==false){
 
 
 
-function run(){
+
     vol.addEventListener("click",()=>{
         if(v==0){
             v=1;
@@ -130,4 +129,3 @@ function run(){
     //         ripples.remove();
     //     },500)
     // })
-}
