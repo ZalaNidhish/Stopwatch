@@ -24,6 +24,7 @@ body{
     width:100%;
     background-color: black;
     position: relative;
+    display:block;
 }
 
 .loader2{
