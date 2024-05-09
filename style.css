@@ -10,6 +10,11 @@ body{
     overflow: hidden;
 }
 
+h5 a{
+    color: rgb(255, 234, 0);
+}
+
+
 .criteria{
     background-color: azure;
     color: rgb(84, 84, 84);
